@@ -1,0 +1,49 @@
+body{
+  width: 1200px;
+  /* font-size: 16px; */
+}
+header{
+  width: 1186px;
+  padding: 5px;
+  height: 96px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+
+#menunav{
+  background-color:cyan;
+  height: 96px;
+  border: 2px solid black;
+}
+
+main{
+  overflow: hidden;
+}
+#contenedor aside, #contenedor section{
+  /* float:left */
+  padding-top: 5px;
+  padding-left: 5px;
+  min-height: 591px;
+}
+
+aside{
+  background-color: green;
+  width: 291px;
+  border: 2px solid black;
+  float: left;
+}
+
+#caja{
+  float: left;
+  background-color: orange;
+  width: 891px;
+  border: 2px solid black;
+}
+
+footer{
+  clear: left;
+  background-color: navy;
+  height: 196px;
+  border: 2px solid black;
+}

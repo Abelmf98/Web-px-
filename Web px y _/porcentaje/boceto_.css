@@ -1,0 +1,51 @@
+body{
+  width: 100%;
+  /* font-size: 16px; */
+}
+header{
+  width: 98.83333333333333%; /*width 1186px body 1200px*/
+  padding: 0.4166666666666667%; /*padding 5px body 1200px*/
+  height: 6em; /*height 96 px 1 em = 16 px*/
+  background-color: red;
+  border: 0.125em solid black;
+}
+
+
+#menunav{
+  width: 99.66666666666667%; /*width 1196px body 1200px*/
+  background-color:cyan;
+  height: 6em; /*height 96 px 1 em = 16 px*/
+  border: 0.125em solid black;
+}
+
+main{
+  overflow: hidden;
+}
+#contenedor aside, #contenedor section{
+  /* float:left */
+  padding-top: 0.3125em;
+  padding-left: 0.4166666666666667%; /*padding 5px contenedor 1200px*/
+  min-height: 36.9375em;
+}
+
+aside{
+  background-color: green;
+  width: 24.25%; /* width 291px contenedor 1200px*/
+  border: 0.125em solid black;
+  float: left;
+}
+
+#caja{
+  float: left;
+  background-color: orange;
+  width: 74.25%; /*width 891px contenedor 1200px*/
+  border: 0.125em solid black;
+}
+
+footer{
+  width: 99.66666666666667%; /*width 1196px body 1200px*/
+  clear: left;
+  background-color: navy;
+  height: 12.25em;
+  border: 0.125em solid black;
+}
